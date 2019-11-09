@@ -35,6 +35,7 @@ if (isset($_POST['submit'])) {
                   $sql->fetch();
 
                   $_SESSION['siswa'] = $id;
+                  $_SESSION['nama'] = $user;
 
                   header('location:./vote.php');
             } else {
