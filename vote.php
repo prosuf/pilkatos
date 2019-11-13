@@ -75,7 +75,7 @@ if (!isset($_SESSION['siswa'])) {
                      <h2>Daftar Calon Ketua Osis Periode ' . $periode . '</h2>
                   </div>
                   <hr />';
-            echo '<div class="h3 text-center siswa">Hai ' . $_SESSION['nama'] . '....! Berikan Suaramu Demi Kemajuan OSIS Kedepan</div>';
+            echo '<div class="h4 text-center siswa ">Assalamua\'laikum Warahmatullahi Wabarakatuh... ' . $_SESSION['nama'] . '... Gunakan Hak Pilih Anda Demi Kemajuan OSIS Kedepan..!</div>';
             echo '<div class="row">';
 
             echo '<div class="col-md-10 col-md-offset-1">';
